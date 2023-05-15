@@ -1,4 +1,5 @@
 import UIKit
+import Kingfisher
 
 final class MainViewController: UIViewController {
     
@@ -24,6 +25,8 @@ final class MainViewController: UIViewController {
     }
     
     func loadImage() {
-        
+
+        let url = URL(string: "https://devpass-api-bucket.s3.amazonaws.com/logo/evercode-logo.png")
+        imageView.kf.setImage(with: url)
     }
 }

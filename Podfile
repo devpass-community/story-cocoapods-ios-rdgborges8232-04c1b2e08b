@@ -6,6 +6,7 @@ target 'EvercodeApp' do
   use_frameworks!
 
   # Pods for EvercodeApp
+  pod "Kingfisher"
 
   target 'EvercodeAppTests' do
     inherit! :search_paths
